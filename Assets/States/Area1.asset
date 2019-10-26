@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbf75d842c23c542bb8eaf71ece1d14, type: 3}
+  m_Name: Area1
+  m_EditorClassIdentifier: 
+  NextStates:
+  - {fileID: 11400000, guid: cc0b750c1a42d0b478a6b3c3f233598a, type: 2}
+  - {fileID: 11400000, guid: 0a602ebcaf33da44c9dc32bde3cfdd26, type: 2}
+  - {fileID: 0}
+  Label:
+  - Travel
+  - Battle
+  - Heal
+  Text: You are in the first Area.
+  Title: AREA 1
+  Local: 
+  Type: 1
+  EnemyId: 0
